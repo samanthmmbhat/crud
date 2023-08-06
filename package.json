@@ -1,0 +1,27 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "upload xlsx and csv files",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samanthmmbhat/crud.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samanthmmbhat/crud/issues"
+  },
+  "homepage": "https://github.com/samanthmmbhat/crud#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mangodb": "^1.0.0",
+    "mongoose": "^7.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
